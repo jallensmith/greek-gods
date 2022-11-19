@@ -2,7 +2,8 @@ import React from 'react'
 import { Card } from "semantic-ui-react"
 import GodCard from "./GodCard"
 
-function Collection({godInfo}) {
+function Collection({ godInfo }) {
+   
     return(
         <Card.Group>
             <h1>The Gods of Yore</h1>
