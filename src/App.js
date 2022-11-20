@@ -1,43 +1,51 @@
-import React, { useEffect, useState } from 'react'
-import GodCard from './Components/GodCard.js'
-import Form from './Components/Form'
-import Collection from './Components/Collection'
-// import NavBar from './Components/NavBar.js'
+import React, { useEffect, useState } from 'react';
+import GodCard from './Components/GodCard.js';
+import Form from './Components/Form';
+import Collection from './Components/Collection';
+import Header from './Components/Header';
+import Home from './Components/Home'
 
 function App() {
   const greekAPI = 'http://localhost:3004/gods'
   const [gods, setGods] = useState([])
+  const [userText, setUserText] = useState("")
 
 
   useEffect(() => {
     fetch(greekAPI)
       .then(response => response.json())
-      .then(data => setGods(data))
+      .then(setGods)
   }, [])
 
-  const godInfo = gods.map((godArr) => {
+  const filteredGods = gods.filter((god) => god.name.includes(userText))
+  console.log(filteredGods)
+
+  const godInfo = filteredGods.map((godArr) => {
     return (
       <GodCard
         key={godArr.name}
-        greek={godArr.name}
-        roman={godArr.romanname}
+        name={godArr.name}
+        romanname={godArr.romanname}
         power={godArr.power}
         symbol={godArr.symbol}
-        picture={godArr.url}
+        url={godArr.url}
       />
     )
   })
+  
 
-  function addGods(godObj) {
-    setGods(...gods, godObj)
-  }
+  // function addGods(godObj) {
+  //   setGods(...gods, godObj)
+  // }
+
 
   return (
     <div id="App">
-      <h1>Lords of Apokálypsis</h1>
-      <Collection godInfo={godInfo}/>
-      <Form addGod={addGods} />
-      {/* {godInfo} */}
+      <Header />
+      <Home />
+      <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
+      <Form />
+      {/* addGod={addGods} */}
     </div>
   );
 }
@@ -45,4 +53,4 @@ function App() {
 export default App;
 
 // send newFormData up to send to GodCollection through Patch request
-// all fetch request can live in App
+

@@ -1,23 +1,29 @@
 import React from 'react'
-import { Card } from "semantic-ui-react"
+import { Card, Container } from "semantic-ui-react"
 import GodCard from "./GodCard"
+import Search from './Search'
 
-function Collection({ godInfo }) {
-   
-    return(
-        <Card.Group>
+function Collection({ godInfo, userText, setUserText }) {
+
+    return (
+        <Container>
             <h1>The Gods of Yore</h1>
-            <div class="d-inline-flex p-2 bd-highlight">
-            <div class="row row-cols-4">
-            <GodCard />
-            {godInfo}
-            </div>
-            </div>
-        </Card.Group>
+            <br></br>
+            <Search userText={userText} setUserText={setUserText} />
+            <Card.Group>
+                <div className="d-inline-flex p-2 bd-highlight">
+                    <div className="row row-cols-4">
+                        <GodCard />
+                        { godInfo }
+                    </div>
+                </div>
+            </Card.Group>
+
+        </Container>
     )
 }
 
 export default Collection
 
-// return an organized collection of god cards 
+// Search through the list
 // sort through the collection through a dropdown list

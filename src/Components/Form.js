@@ -1,31 +1,54 @@
 import React, { useState } from "react";
 
-function Form({ addGod }) {
+function Form() {
 
     const [formData, setFormData] = useState({
-        greek: "",
-        roman: "",
+        id: 1,
+        name: "",
+        romanname: "",
         power: "",
         symbol: "",
-        picture: ""
+        mother: "",
+        father: "",
+        url: "",
     })
+
 
 
     function handleSubmit(e) {
         e.preventDefault()
-        addGod(formData)
+
+        setFormData((id) => id +1)
+
+        fetch('http://localhost:3004/gods', {
+            method:"POST",
+            headers: {
+                "Content-Type": "application/json"
+              },
+            body: JSON.stringify(formData)
+        })
+        .then(resp => resp.json())
+        .then(json => console.log(json.id))
     }
 
     // confirmation of submission
     return (
         <div className="card">
             <form className="form-inline" onSubmit={handleSubmit}>
-                <label htmlFor="greek-name">Greek Name:</label>
+                {/* <label htmlFor="greek-name"></label>
+                <input
+                    className=''
+                    type="id"
+                    id="index"
+                    value={formData.greek}
+                    onChange={(e) => setFormData({ ...formData, id: e.target.value })}
+                /> */}
+                
                 <input
                     type="greek-name"
                     className="form-control"
                     id="greek"
-                    value={formData.greek}
+                    value={formData.name}
                     onChange={(e) => setFormData({ ...formData, greek: e.target.value })}
                 />
 
