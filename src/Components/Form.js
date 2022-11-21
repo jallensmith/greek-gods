@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Container } from "semantic-ui-react"
+import { Container } from "semantic-ui-react"
 
 function Form({ addNewGods }) {
 

@@ -1,3 +1,7 @@
+#background {
+  color: yellow; 
+}
+
 .Card {
   max-width:fit-content;
   max-height: fit-content;

@@ -11,12 +11,14 @@ function Collection({ godInfo, userText, setUserText }) {
             <br></br>
             <Search userText={userText} setUserText={setUserText} />
             <br></br>
-            <Card.Group>
-                <div className="d-inline-flex p-1 bd-highlight">
-                    <div className="row row-cols-5">
+            <Card.Group >
+                <div class="rounded mx-auto d-block">
+                <div className="d-inline-flex p-1 bd-highlight"> 
+                    <div className="row row-cols-4">
                         <GodCard />
                         { godInfo }
                     </div>
+                </div>
                 </div>
             </Card.Group>
         </Container>

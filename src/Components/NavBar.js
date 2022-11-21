@@ -14,7 +14,7 @@ function NavBar() {
                 Collection
             </NavLink>
             <NavLink to="/add-god">
-                Add and Delete Gods
+                Add A God!
             </NavLink>
         </nav>
         </div>
