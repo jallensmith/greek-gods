@@ -12,13 +12,16 @@ function NavBar() {
                 Home
             </NavLink>
             <NavLink to="/collection">
-                Collection
+                Collection of Gods
+            </NavLink>
+            <NavLink to="/heroes-collection">
+                See the Heroes
             </NavLink>
             <NavLink to="/add-god">
                 Add A God!
             </NavLink>
-            <NavLink to="/heroes-collection">
-                See the Heroes
+            <NavLink to="/delete-god">
+                Banish a God!
             </NavLink>
         </nav>
         </div>

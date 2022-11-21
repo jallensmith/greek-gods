@@ -6,6 +6,7 @@ import Collection from './Components/Collection';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home'
 import HeroPage from './Components/HeroPage.js';
+import DeleteGod from './Components/Delete A God.js';
 
 function App() {
   const greekAPI = 'http://localhost:3004/gods'
@@ -38,6 +39,11 @@ function App() {
     setGods(...gods, newGods)
   }
 
+  function onDeleteGods(deletedGod) {
+    const updatedGods = gods.filter((god) => god.name !== deletedItem.name);
+    setGods(newGods);
+}
+  }
 
   return (
     <div id="App">
@@ -49,11 +55,14 @@ function App() {
         <Route path="/collection">
           <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
         </Route>
+        <Route path="/heroes-collection">
+          <HeroPage />
+        </Route>
         <Route path="/add-god">
           <Form />
         </Route>
-        <Route path="/heroes-collection">
-          <HeroPage />
+        <Route path="/delete-god">
+          <DeleteGod gods={gods}/>
         </Route>
         <Route path="*">
           <Home />

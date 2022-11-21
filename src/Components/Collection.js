@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Container } from "semantic-ui-react"
+import { Card } from "semantic-ui-react"
 import GodCard from "./GodCard"
 import Search from './Search'
 import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
