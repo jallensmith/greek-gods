@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Container } from "semantic-ui-react"
+import { Container, Button } from "semantic-ui-react";
+import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
 
 function Form({ addNewGods }) {
 
@@ -82,7 +83,10 @@ function Form({ addNewGods }) {
                         value={formData.url}
                         onChange={(e) => setFormData({ ...formData, url: e.target.value })}
                     />
-                    <button class="font-weight-bold" type="submit">Add New God!</button>
+                    <nav id="form-button">
+                    <Button class="font-weight-bold" type="submit">Add New God!</Button>
+                    </nav>
+                    <br></br>
                     <img
                         class="img-thumbnail"
                         title="preview-image"

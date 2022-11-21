@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
 
 function UpdateGods() {
     return (
         <div>
-            <h1> In Development</h1>
+            <h1 id='update-title'> In Development</h1>
         </div>
     )
 }

@@ -43,6 +43,7 @@ function App() {
   function onDeleteGods(deletedGod) {
     const updatedGods = gods.filter((god) => god.name !== god.name);
     setGods(updatedGods);
+    // needed number for index
 }
 
 
