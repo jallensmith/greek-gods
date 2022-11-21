@@ -84,7 +84,8 @@ function Form({ addNewGods }) {
                     />
                     <button class="font-weight-bold" type="submit">Add New God!</button>
                     <img
-                        class="rounded mx-auto d-block"
+                        class="img-thumbnail"
+                        title="preview-image"
                         src={formData.url || 'http://jstationx.com/wp-content/uploads/2018/03/God-of-War-PS4-female-characters-1024x577.jpg'}
                         alt={formData.name && formData.romanname}
                     />

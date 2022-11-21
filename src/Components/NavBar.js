@@ -20,6 +20,9 @@ function NavBar() {
             <NavLink to="/add-god">
                 Add A God!
             </NavLink>
+            <NavLink to="/update-god">
+                Update A God!
+            </NavLink>
             <NavLink to="/delete-god">
                 Banish a God!
             </NavLink>

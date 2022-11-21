@@ -13,6 +13,7 @@ function DeleteGod({ gods }) {
 
     return (
         <div title="delete-god">
+            <h1>In Development</h1>
             <GodCard />
             <button onClick={handleDelete}> Banish from Mount Olympia</button>
         </div>

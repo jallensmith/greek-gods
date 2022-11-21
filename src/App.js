@@ -7,6 +7,7 @@ import NavBar from './Components/NavBar';
 import Home from './Components/Home'
 import HeroPage from './Components/HeroPage.js';
 import DeleteGod from './Components/Delete A God.js';
+import UpdateGods from './Components/UpdateGods.js';
 
 function App() {
   const greekAPI = 'http://localhost:3004/gods'
@@ -63,6 +64,9 @@ function App() {
         </Route>
         <Route path="/delete-god">
           <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
+        </Route>
+        <Route path="/update-god">
+          <UpdateGods />
         </Route>
         <Route path="*">
           <Home />
