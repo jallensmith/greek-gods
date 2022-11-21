@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
 
 function NavBar() {
     

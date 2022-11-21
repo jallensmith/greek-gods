@@ -8,6 +8,11 @@
   color: red; 
 }
 
-.Title {
+Title {
   font-size: xx-large;
+}
+
+nav a.active {
+  background-color: black;
+  color: white;
 }
