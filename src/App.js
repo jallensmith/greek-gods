@@ -40,10 +40,10 @@ function App() {
   }
 
   function onDeleteGods(deletedGod) {
-    const updatedGods = gods.filter((god) => god.name !== deletedItem.name);
-    setGods(newGods);
+    const updatedGods = gods.filter((god) => god.name !== god.name);
+    setGods(updatedGods);
 }
-  }
+
 
   return (
     <div id="App">
@@ -62,7 +62,7 @@ function App() {
           <Form />
         </Route>
         <Route path="/delete-god">
-          <DeleteGod gods={gods}/>
+          <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
         </Route>
         <Route path="*">
           <Home />
