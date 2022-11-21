@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import HeroCollection from './HeroCollection';
+import SearchHero from './SearchHero';
 import '/home/theallensmiths/Projects/greek-gods/src/index.css';
 
 function HeroPage() {
@@ -12,12 +13,15 @@ function HeroPage() {
         .then(setHeroes)
     }, [])
 
-    const filteredHeroes =  heroes.filter((hero) => hero.name.includes(userInput.toUpperCase()))
+    const filteredHeroes =  heroes.filter((hero) => hero.name.includes(userInput))
+
+    // ternary operator
 
     return(
         <div>
-            <HeroCollection heroes={heroes}/>
-            <SearchHero />
+            <h1 id="test"> Introducing the Heroes </h1>
+            <SearchHero userInput={userInput} setUserInput={setUserInput}/>
+            <HeroCollection heroes={filteredHeroes}/>
         </div>
     )
 }

@@ -2,9 +2,15 @@
   font-size: xx-large;
 }
 
-#hero-title {
+#test {
+  text-align: center;
+  color:brown; 
+}
+
+#hero-cards {
   text-align: center;
   padding-left: 50px;
+  padding-top: 50px;
 }
 
 

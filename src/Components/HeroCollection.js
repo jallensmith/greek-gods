@@ -5,12 +5,9 @@ import '/home/theallensmiths/Projects/greek-gods/src/index.css';
 
 function HeroCollection({ heroes }) {
     return (
+        
         <Card.Group>
-            <div id="hero-title" >
-            <br></br>
-            {/* <SearchHeroes /> */}
-            <br></br>
-            <h1 className="text-success">Welcome the Heroes</h1>
+            <div id="hero-cards" >
                     <div className="row row-cols-3">
                         {heroes.map((hero) => <HeroCard
                             key={hero.name}
