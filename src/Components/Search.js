@@ -10,7 +10,7 @@ function Search({ userText, setUserText }) {
         <div>
             <form className="example" action="action_page.php" onSubmit={(event) => {event.preventDefault()}}>
                 <input type="text" 
-                placeholder="Enter Greek Name" 
+                placeholder="Sort by Greek Name" 
                 name="search" 
                 value={userText} 
                 onChange={handleOnChange}
