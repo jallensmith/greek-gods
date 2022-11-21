@@ -14,6 +14,9 @@ On this app, you are able to:
 1. Update Gods with New Information 
 2. Delete Gods from API
 
+## Notes to Dev:
+Initial Wire-Frame for this Project(you may notice the theme changed):
+<img src=/home/theallensmiths/Projects/greek-gods/public/Initial Skeleton.png alt="wire frame of project"> 
 
 # To Run This Project:
 
