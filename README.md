@@ -7,16 +7,18 @@ Take a step onto the perilous mountains of Mount Olympus and witness the Gods an
 On this app, you are able to:
 
 ### Primary:
-1. Search through a Database of Greek Gods (See `God Collection ` Page) and Heroes (See `See the Heroes` Page)
+1. Search through a Database of Greek Gods (See `God Collection` Page) and Heroes (See `See the Heroes` Page)
 2. Add New Gods to the Existing Database!
 
-### Upcoming:
-1. Update Gods with New Information 
-2. Delete Gods from API
+### In Development:
+1. User Being Able to Login and this persist on all pages
+2. Update Gods with New Information 
+3. Delete Gods from API
 
 ## Notes to Dev:
 Initial Wire-Frame for this Project(you may notice the theme changed):
-<img src=/home/theallensmiths/Projects/greek-gods/public/Initial Skeleton.png alt="wire frame of project"> 
+<img src="/home/theallensmiths/Projects/greek-gods/public/Initial Skeleton.png" alt="wire frame of project"> 
+
 
 # To Run This Project:
 
