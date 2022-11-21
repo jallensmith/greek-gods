@@ -17,6 +17,9 @@ function NavBar() {
             <NavLink to="/add-god">
                 Add A God!
             </NavLink>
+            <NavLink to="/heroes-collection">
+                See the Heroes
+            </NavLink>
         </nav>
         </div>
     )

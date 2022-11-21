@@ -1,18 +1,21 @@
-#background {
-  color: yellow; 
-}
-
-.Card {
-  max-width:fit-content;
-  max-height: fit-content;
-  color: red; 
-}
-
-Title {
+#Title {
   font-size: xx-large;
 }
+
+#hero-title {
+  text-align: center;
+  padding-left: 50px;
+}
+
 
 nav a.active {
   background-color: black;
   color: white;
+  font-size: large;
 }
+
+#card-group {
+  text-align: center;
+  padding-left: 50px;
+}
+

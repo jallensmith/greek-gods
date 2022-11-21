@@ -1,4 +1,5 @@
 import React from 'react';
+import { Form, Container } from 'semantic-ui-react'
 
 function Search({ userText, setUserText }) {
     
@@ -8,7 +9,9 @@ function Search({ userText, setUserText }) {
 
     return (
         <div>
-            <form className="example" action="action_page.php" onSubmit={(event) => {event.preventDefault()}}>
+            <Container>
+            <Form>
+            <form id="form" className="form-group" action="action_page.php" onSubmit={(event) => {event.preventDefault()}}>
                 <input type="text" 
                 placeholder="Sort by Greek Name" 
                 name="search" 
@@ -16,6 +19,8 @@ function Search({ userText, setUserText }) {
                 onChange={handleOnChange}
                 />
             </form>
+            </Form>
+            </Container>
         </div>
     )
 }

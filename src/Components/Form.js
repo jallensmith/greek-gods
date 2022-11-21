@@ -34,6 +34,7 @@ function Form({ addNewGods }) {
     return (
         <div>
             <Container>
+            <h2 className="text-center">Create and Add a New God!</h2>
             <div>
                 <form id="form" className="form-inline" onSubmit={handleSubmit}>
 

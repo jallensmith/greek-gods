@@ -5,6 +5,7 @@ import Form from './Components/Form';
 import Collection from './Components/Collection';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home'
+import HeroPage from './Components/HeroPage.js';
 
 function App() {
   const greekAPI = 'http://localhost:3004/gods'
@@ -51,8 +52,11 @@ function App() {
         <Route path="/add-god">
           <Form />
         </Route>
+        <Route path="/heroes-collection">
+          <HeroPage />
+        </Route>
         <Route path="*">
-          <h1>404 not found</h1>
+          <Home />
         </Route>
       </Switch>
     </div>

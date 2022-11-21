@@ -2,18 +2,19 @@ import React from 'react'
 import { Card, Container } from "semantic-ui-react"
 import GodCard from "./GodCard"
 import Search from './Search'
+import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
 
 function Collection({ godInfo, userText, setUserText }) {
 
     return (
-        <Container>
+            <div>
             <h1 className="text-center">The Gods of Yore</h1>
             <br></br>
             <Search userText={userText} setUserText={setUserText} />
             <br></br>
             <Card.Group >
-                <div class="rounded mx-auto d-block">
-                <div className="d-inline-flex p-1 bd-highlight"> 
+                <div>
+                <div id="card-group"> 
                     <div className="row row-cols-4">
                         <GodCard />
                         { godInfo }
@@ -21,7 +22,7 @@ function Collection({ godInfo, userText, setUserText }) {
                 </div>
                 </div>
             </Card.Group>
-        </Container>
+            </div>
     )
 }
 
