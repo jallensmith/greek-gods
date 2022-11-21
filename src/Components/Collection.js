@@ -7,23 +7,20 @@ function Collection({ godInfo, userText, setUserText }) {
 
     return (
         <Container>
-            <h1>The Gods of Yore</h1>
+            <h1 className="text-center">The Gods of Yore</h1>
             <br></br>
             <Search userText={userText} setUserText={setUserText} />
+            <br></br>
             <Card.Group>
-                <div className="d-inline-flex p-2 bd-highlight">
-                    <div className="row row-cols-4">
+                <div className="d-inline-flex p-1 bd-highlight">
+                    <div className="row row-cols-5">
                         <GodCard />
                         { godInfo }
                     </div>
                 </div>
             </Card.Group>
-
         </Container>
     )
 }
 
 export default Collection
-
-// Search through the list
-// sort through the collection through a dropdown list

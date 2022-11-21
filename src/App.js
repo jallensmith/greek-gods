@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import { Switch, Route } from "react-router-dom";
 import GodCard from './Components/GodCard.js';
 import Form from './Components/Form';
 import Collection from './Components/Collection';
-import Header from './Components/Header';
+import NavBar from './Components/NavBar';
 import Home from './Components/Home'
 
 function App() {
   const greekAPI = 'http://localhost:3004/gods'
   const [gods, setGods] = useState([])
   const [userText, setUserText] = useState("")
-
+  // const [page, setChangePage] = useState("/home")
 
   useEffect(() => {
     fetch(greekAPI)
@@ -18,7 +19,6 @@ function App() {
   }, [])
 
   const filteredGods = gods.filter((god) => god.name.includes(userText))
-  console.log(filteredGods)
 
   const godInfo = filteredGods.map((godArr) => {
     return (
@@ -32,25 +32,31 @@ function App() {
       />
     )
   })
-  
 
-  // function addGods(godObj) {
-  //   setGods(...gods, godObj)
-  // }
+  function addNewGods(newGods) {
+    setGods(...gods, newGods)
+  }
 
 
   return (
     <div id="App">
-      <Header />
-      <Home />
-      <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
-      <Form />
-      {/* addGod={addGods} */}
+      <NavBar />
+      <Switch>
+        <Route path="/home">
+          <Home addNewGods={addNewGods} />
+        </Route>
+        <Route path="/collection">
+          <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
+        </Route>
+        <Route path="/add-god">
+          <Form />
+        </Route>
+        <Route path="*">
+          <h1>404 not found</h1>
+        </Route>
+      </Switch>
     </div>
   );
 }
 
 export default App;
-
-// send newFormData up to send to GodCollection through Patch request
-

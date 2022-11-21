@@ -1,4 +1,9 @@
-.card {
+.Card {
   max-width:fit-content;
-  max-height: fit-content
+  max-height: fit-content;
+  color: red; 
+}
+
+.Title {
+  font-size: xx-large;
 }

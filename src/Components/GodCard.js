@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from "semantic-ui-react"
+import { Card } from "semantic-ui-react";
 
 // KitchenSink
 
@@ -13,8 +13,8 @@ function GodCard({
 
     return (
         <Card>
-        <div id="card" className="d-inline-flex p-2 bd-highlight">
-            <div className="p-3 border">
+        <div id="Card" className="d-inline-flex p-1 bd-highlight">
+            <div className="p-1 border">
                 <h2>Greek:{name}</h2>
                 <h2>Roman:{romanname}</h2>
                 <p>

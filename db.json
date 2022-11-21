@@ -1,6 +1,7 @@
 {
   "gods": [
     {
+      "id": 1,
       "name": "Aphrodite",
       "romanname": "Venus",
       "power": "Love, beauty, procreation",
@@ -892,7 +893,95 @@
       "url": "http://www.greekmythology.com/images/mythology/thaumas_398.jpg"
     },
     {
-      "id": 1,
+      "id": 2,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "name": "ggg",
+      "id": 5
+    },
+    {
+      "name": "ggg",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 11,
+      "name": "",
+      "romanname": "",
+      "power": "",
+      "symbol": "",
+      "mother": "",
+      "father": "",
+      "url": ""
+    },
+    {
+      "id": 12,
       "name": "",
       "romanname": "",
       "power": "",
