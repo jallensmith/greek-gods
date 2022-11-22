@@ -41,9 +41,9 @@ function App() {
   }
 
   function onDeleteGods(deletedGod) {
-    const updatedGods = gods.filter((god) => god.name !== god.name);
+    const updatedGods = gods.filter((god) => deletedGod !== god.name);
     setGods(updatedGods);
-    // needed number for index
+    // needed number for index?
 }
 
 
@@ -67,7 +67,7 @@ function App() {
           <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
         </Route>
         <Route path="/update-god">
-          <UpdateGods />
+          <UpdateGods gods={gods}/>
         </Route>
         <Route path="*">
           <Home />

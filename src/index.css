@@ -29,6 +29,14 @@
   text-align: center;
 }
 
+#delete-button {
+  text-align: center;
+}
+
+#delete-god {
+  padding-left: 100px;
+}
+
 nav a.active {
   background-color: black;
   color: white;
