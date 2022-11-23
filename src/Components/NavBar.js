@@ -8,22 +8,22 @@ function NavBar() {
         <div>
         <h2 id="Title" className="text-center"> άρχοντες της Αποκάλυψης </h2>
         <nav className="navbar navbar-inverse">
-            <NavLink to="/home">
+            <NavLink exact to="/home">
                 Home
             </NavLink>
-            <NavLink to="/collection">
+            <NavLink to="/collection/gods">
                 Collection of Gods
             </NavLink>
-            <NavLink to="/heroes-collection">
+            <NavLink to="/collection/heroes">
                 See the Heroes
             </NavLink>
-            <NavLink to="/add-god">
+            <NavLink to="/collection/add">
                 Add A God!
             </NavLink>
-            <NavLink to="/update-god">
+            <NavLink to="/collection/update">
                 Update A God!
             </NavLink>
-            <NavLink to="/delete-god">
+            <NavLink to="/collection/delete">
                 Banish a God!
             </NavLink>
         </nav>

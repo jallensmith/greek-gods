@@ -54,19 +54,19 @@ function App() {
         <Route path="/home">
           <Home addNewGods={addNewGods} />
         </Route>
-        <Route path="/collection">
+        <Route path="/collection/gods">
           <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
         </Route>
-        <Route path="/heroes-collection">
+        <Route path="/collection/heroes">
           <HeroPage />
         </Route>
-        <Route path="/add-god">
+        <Route path="/collection/add">
           <Form />
         </Route>
-        <Route path="/delete-god">
+        <Route path="/collection/delete">
           <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
         </Route>
-        <Route path="/update-god">
+        <Route path="/collection/update">
           <UpdateGods gods={gods}/>
         </Route>
         <Route path="*">
