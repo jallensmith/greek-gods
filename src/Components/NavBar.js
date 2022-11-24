@@ -32,7 +32,9 @@ function NavBar({ user, setUser }) {
                         <Button onClick={handleLogoutClick}> 
                         
                         <UserContext.Provider>
+                        <header>
                         Welcome {user}! 
+                        </header>
                         </UserContext.Provider>
                         
                         </Button>
@@ -46,11 +48,11 @@ function NavBar({ user, setUser }) {
                                 placeholder="Username" 
                                 name="Username" 
                                 />
-                                <Button 
+                                <Form.Button 
                                 // onClick={handleLoginClick}
                                 >
                                 Login
-                                </Button>
+                                </Form.Button>
                             </Form>
                         </div>
                     )}

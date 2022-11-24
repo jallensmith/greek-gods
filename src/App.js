@@ -47,6 +47,11 @@ function App() {
     // needed number for index?
   }
 
+  function onUpdateGod(updatedGod) {
+    // setGods(...gods, updatedGod)
+  }
+
+  // these functions are break the code -- reanalyze how and where data is being stored and updated 
   // const UserContext = createContext();
 
 
@@ -75,7 +80,7 @@ function App() {
           <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
         </Route>
         <Route path="/collection/update">
-          <UpdateGods gods={gods}/>
+          <UpdateGods gods={gods} onUpdateGod={onUpdateGod}/>
         </Route>
         <Route path="*">
           <Home />
