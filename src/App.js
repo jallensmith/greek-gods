@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState} from 'react';
 import { Switch, Route } from "react-router-dom";
 import GodCard from './Components/GodCard.js';
 import Form from './Components/Form';
@@ -13,7 +13,8 @@ function App() {
   const greekAPI = 'http://localhost:3004/gods'
   const [gods, setGods] = useState([])
   const [userText, setUserText] = useState("")
-  // const [page, setChangePage] = useState("/home")
+  const [user, setUser] = useState('')
+  // Need a Button and a Form 
 
   useEffect(() => {
     fetch(greekAPI)
@@ -44,12 +45,19 @@ function App() {
     const updatedGods = gods.filter((god) => deletedGod !== god.name);
     setGods(updatedGods);
     // needed number for index?
-}
+  }
+
+  // const UserContext = createContext();
 
 
   return (
     <div id="App">
-      <NavBar />
+     {/* <UserContext.Provider>
+      <p id="user-login">Hello {user}!</p>
+     </UserContext.Provider> */}
+     
+     <NavBar user={user} setUser={setUser} />  
+      
       <Switch>
         <Route path="/home">
           <Home addNewGods={addNewGods} />
@@ -73,6 +81,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+
     </div>
   );
 }

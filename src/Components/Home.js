@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState, useContext, createContext } from 'react';
 import { Container, Button} from 'semantic-ui-react'
 import '/home/theallensmiths/Projects/greek-gods/src/index.css'; 
 
 function Home() {
+    
+    
     // { useContext }
+    // pass user up through props 
+    // https://www.w3schools.com/react/react_usecontext.asp
+    // const UserContext = createContext();
 
     // const [userLogData, setUserLogData] = useState({
     //       user: null
@@ -43,9 +48,9 @@ function Home() {
 
             <img class="rounded mx-auto d-block" src="https://tshop.r10s.com/039/864/74c9/d777/c02a/009a/f27d/11d6e89e1854ab3a295add.jpg?_ex=600x600" alt="colossus of rhodes"></img>
              <Container>
-             <nav id="login-navbar">
-                <Button onClick={(event) => console.log(event)}>Login</Button>
-                <Button onClick={(event) => console.log(event)}>Logout</Button>
+             <nav id="login-navbar">   
+                {/* <Button onClick={(event) => console.log(event)}>Login</Button> 
+                <Button onClick={(event) => console.log(event)}>Logout</Button> */}
             </nav>
             </Container>
         </div>
