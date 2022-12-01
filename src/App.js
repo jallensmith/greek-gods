@@ -65,7 +65,7 @@ function App() {
       
       <Switch>
         <Route path="/home">
-          <Home addNewGods={addNewGods} />
+          <Home addNewGods={addNewGods} onUpdateGod={onUpdateGod} onDeleteGods={onDeleteGods}/>
         </Route>
         <Route path="/collection/gods">
           <Collection godInfo={godInfo} userText={userText} setUserText={setUserText} />
@@ -77,10 +77,10 @@ function App() {
           <Form />
         </Route>
         <Route path="/collection/delete">
-          <DeleteGod gods={gods} onDeleteGods={onDeleteGods}/>
+          <DeleteGod gods={gods} />
         </Route>
         <Route path="/collection/update">
-          <UpdateGods gods={gods} onUpdateGod={onUpdateGod}/>
+          <UpdateGods gods={gods} />
         </Route>
         <Route path="*">
           <Home />

@@ -1,20 +1,17 @@
-import React, { createContext, useContext } from "react"
+import React, { createContext } from "react"
 import { NavLink } from "react-router-dom"
 import { Button, Form, Container } from "semantic-ui-react"
 import '/home/theallensmiths/Projects/greek-gods/src/index.css';
 
 function NavBar({ user, setUser }) {
     const UserContext = createContext();
-    
+
     function handleSubmit(event) {
         event.preventDefault()
-        setUser(event.target.value)
-        console.log(user)
+        setUser(event.target[0].value)
+        console.log(event.target[0].value)
     }
 
-    // function handleLoginClick() {
-    //     setUser(user)
-    // }
 
     function handleLogoutClick() {
         setUser("")
@@ -26,32 +23,33 @@ function NavBar({ user, setUser }) {
 
             <Container>
                 <div>
-                    
+
                     {user ? (
                         <div>
-                        <Button onClick={handleLogoutClick}> 
-                        
-                        <UserContext.Provider>
-                        <header>
-                        Welcome {user}! 
-                        </header>
-                        </UserContext.Provider>
-                        
-                        </Button>
+                            <Button onClick={handleLogoutClick}>
+
+                                <UserContext.Provider>
+                                    <header>
+                                        Welcome {user}!
+                                    </header>
+                                </UserContext.Provider>
+
+                            </Button>
                         </div>
                     ) : (
                         <div>
-                            <Form>
-                                <Form.Input 
-                                onChange={handleSubmit} 
-                                fluid label="Username" 
-                                placeholder="Username" 
-                                name="Username" 
+                            {/* Rewrite Form  */}
+                            <Form
+                                onSubmit={handleSubmit}
+                            >
+                                <Form.Input
+                                    fluid label="Username"
+                                    placeholder="Username"
+                                    name="Username"
                                 />
-                                <Form.Button 
-                                // onClick={handleLoginClick}
+                                <Form.Button
                                 >
-                                Login
+                                    Login
                                 </Form.Button>
                             </Form>
                         </div>
