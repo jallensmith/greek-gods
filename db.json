@@ -907,6 +907,14 @@
       "symbol": "Dragon",
       "url": "http://image.tmdb.org/t/p/original/zrtmdBXAI5bNQ2azM1ck5bGac8B.jpg",
       "id": 3
+    },
+    {
+      "name": "Him",
+      "romanname": "Him",
+      "power": "Interdimensional Phasing ",
+      "symbol": "Crab",
+      "url": "https://vignette4.wikia.nocookie.net/fictional-battle-omniverse/images/a/a7/HIM_Powerpuff_Girls.png/revision/latest?cb=20160907221202",
+      "id": 4
     }
   ],
   "heroes": [

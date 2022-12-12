@@ -17,6 +17,9 @@ function DeleteGod({ gods, onDeleteGods }) {
     // separate fetch protocol to return preview
     // separate fetch to delete from API?
     // is above the correct notation to locate that god in the array?
+    // searcheable through key or through name 
+    // how could you pass down the information more dynamically
+    // look at this versus useContext combine with Reducer
 
     return (
         <Container>

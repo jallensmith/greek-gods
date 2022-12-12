@@ -23,7 +23,7 @@ function NavBar({ user, setUser }) {
 
             <Container>
                 <div>
-
+                    {/* for using user again, think how you can use "Who would you like to banish, {user}?" */}
                     {user ? (
                         <div>
                             <Button onClick={handleLogoutClick}>
