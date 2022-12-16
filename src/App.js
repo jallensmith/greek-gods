@@ -30,7 +30,6 @@ function App() {
       .then(setMyths)
   }, [])
 
-
   function addGod(newGod) {
     setGods([...gods, newGod])
   }
