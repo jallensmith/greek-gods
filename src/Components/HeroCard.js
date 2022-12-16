@@ -11,6 +11,7 @@ function HeroCard({ name, herotype, father, mother, power, home, url }) {
             <h4>Mother: {mother} and Father: {father}</h4>
             <p>Power: {power} Home: {home}</p>
             <img className="img-thumbnail" src={url} alt={name}></img>
+            <button>🗑</button>
         </div>
         </div>
         </Card>

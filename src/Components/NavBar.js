@@ -76,6 +76,9 @@ function NavBar({ user, setUser }) {
                 <NavLink to="/collection/delete">
                     Banish a God!
                 </NavLink>
+                <NavLink to="/collection/worksheet">
+                    Worksheet
+                </NavLink>
             </nav>
         </div>
     )

@@ -23,6 +23,7 @@ function GodCard({
                 Power: {power}
                 </p>
                 <img src={url} alt={name} className="img-thumbnail"></img>
+                <button>🗑</button>
             </div>
         </div>
         </Card>

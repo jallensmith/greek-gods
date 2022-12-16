@@ -11,6 +11,7 @@
       "url": "http://www.theoi.com/image/K9.3Ares.jpg"
     },
     {
+      "id": 2,
       "name": "Apollo",
       "romanname": "Apollo",
       "power": "Music, prophecy, healing, archery",
@@ -20,6 +21,7 @@
       "url": "http://www.theoi.com/image/K5.2Apollon.jpg"
     },
     {
+      "id": 3,
       "name": "Ares",
       "romanname": "Mars",
       "power": "War, courage, battlelust",
@@ -29,6 +31,7 @@
       "url": "http://www.theoi.com/image/K9.6Ares.jpg"
     },
     {
+      "id": 4,
       "name": "Artemis",
       "romanname": "Diana",
       "power": "Hunting, wild animals, children",
@@ -38,6 +41,7 @@
       "url": "http://www.theoi.com/image/K6.2Artemis.jpg"
     },
     {
+      "id": 5,
       "name": "Athena",
       "romanname": "Minerva",
       "power": "Wisdom, war, weaving, crafts",
@@ -47,6 +51,7 @@
       "url": "http://www.theoi.com/image/K8.3Athena.jpg"
     },
     {
+      "id": 6,
       "name": "Demeter",
       "romanname": "Ceres",
       "power": "Grain, bread, agriculture",
@@ -56,6 +61,7 @@
       "url": "http://www.theoi.com/image/K3.2Demeter.jpg"
     },
     {
+      "id": 7,
       "name": "Dionysus",
       "romanname": "Liber",
       "power": "Wine, festivity, madness",
@@ -65,6 +71,7 @@
       "url": "http://www.theoi.com/image/Z12.1Dionysos.jpg"
     },
     {
+      "id": 8,
       "name": "Hephaestus",
       "romanname": "Vulcan",
       "power": "Smiths, fire, metalworking",
@@ -74,6 +81,7 @@
       "url": "http://www.theoi.com/image/K7.1Hephaistos.jpg"
     },
     {
+      "id": 9,
       "name": "Hera",
       "romanname": "Juno",
       "power": "Marriage, sky, queen of the gods",
@@ -83,6 +91,7 @@
       "url": "http://www.theoi.com/image/K4.7Hera.jpg"
     },
     {
+      "id": 10,
       "name": "Hermes",
       "romanname": "Mercurius, Mercury",
       "power": "Herds, trade, thievery, athletics, messengers",
@@ -92,6 +101,7 @@
       "url": "http://www.theoi.com/image/K11.11Hermes.jpg"
     },
     {
+      "id": 11,
       "name": "Poseidon",
       "romanname": "Neptune, ",
       "power": "King of the Sea, earthquakes, floods, horses",
@@ -101,6 +111,7 @@
       "url": "http://www.theoi.com/image/Z2.1Poseidon.jpg"
     },
     {
+      "id": 12,
       "name": "Zeus",
       "romanname": "Jupiter",
       "power": "Sky, weather, kings, fate",
@@ -110,6 +121,7 @@
       "url": "http://www.theoi.com/image/K1.1Zeus.jpg"
     },
     {
+      "id": 13,
       "name": "Asclepius",
       "romanname": "Aesculapius",
       "power": "Medicine, doctors",
@@ -119,6 +131,7 @@
       "url": "http://www.theoi.com/image/S23.1Asklepios.jpg"
     },
     {
+      "id": 14,
       "name": "Charites",
       "romanname": "Gratiae",
       "power": "Grace, joy, mirth, beauty, glory, dance",
@@ -128,6 +141,7 @@
       "url": "http://www.theoi.com/image/F21.1Kharites.jpg"
     },
     {
+      "id": 15,
       "name": "Eileithyia",
       "romanname": "Lucina",
       "power": "Childbirth",
@@ -137,6 +151,7 @@
       "url": "http://www.theoi.com/image/img_eileithyia.jpg"
     },
     {
+      "id": 16,
       "name": "Eros",
       "romanname": "Cupid, Amor",
       "power": "Love, sexual desire",
@@ -146,6 +161,7 @@
       "url": "http://www.theoi.com/image/K32.1Eros.jpg"
     },
     {
+      "id": 17,
       "name": "Hebe",
       "romanname": "Juventas",
       "power": "Youth, brides",
@@ -155,6 +171,7 @@
       "url": "http://www.theoi.com/image/K18.1Hebe.jpg"
     },
     {
+      "id": 18,
       "name": "Hestia",
       "romanname": "Vesta",
       "power": "Hearth, home",
@@ -164,6 +181,7 @@
       "url": "http://www.theoi.com/image/K13.2Hestia.jpg"
     },
     {
+      "id": 19,
       "name": "Horae",
       "romanname": "Dike, Eunomia, Irene",
       "power": "The seasons, natural order",
@@ -173,6 +191,7 @@
       "url": "http://www.theoi.com/image/K17.1Horai.jpg"
     },
     {
+      "id": 20,
       "name": "Hygeia",
       "romanname": "Salus",
       "power": "Good health",
@@ -182,6 +201,7 @@
       "url": "http://www.theoi.com/image/S24.1Hygeia.jpg"
     },
     {
+      "id": 21,
       "name": "Iris",
       "romanname": "Iris, Arcus",
       "power": "The rainbow, messenger of the gods",
@@ -191,6 +211,7 @@
       "url": "http://www.theoi.com/image/P21.6BIris.jpg"
     },
     {
+      "id": 22,
       "name": "Leto",
       "romanname": "Latona",
       "power": "Motherhood, demureness",
@@ -200,6 +221,7 @@
       "url": "http://www.theoi.com/image/T14.5Leto.jpg"
     },
     {
+      "id": 23,
       "name": "Moirae",
       "romanname": "Parcae, Fatae",
       "power": "Fate, destiny",
@@ -209,6 +231,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Schadow_Grabmal_Alexander_2.jpg/1024px-Schadow_Grabmal_Alexander_2.jpg"
     },
     {
+      "id": 24,
       "name": "Muses",
       "romanname": "Musae",
       "power": "Music, poetry, the arts",
@@ -218,6 +241,7 @@
       "url": "http://www.theoi.com/image/K20.1CMousa.jpg"
     },
     {
+      "id": 25,
       "name": "Nike",
       "romanname": "Victoria",
       "power": "Victory",
@@ -227,6 +251,7 @@
       "url": "http://www.theoi.com/image/T24.1Nike.jpg"
     },
     {
+      "id": 26,
       "name": "Themis",
       "romanname": "Themis",
       "power": "Divine law, custom, assemblies, oracles",
@@ -236,6 +261,7 @@
       "url": "http://www.theoi.com/image/T8.1Themis.jpg"
     },
     {
+      "id": 27,
       "name": "Tyche",
       "romanname": "Fortuna",
       "power": "Fortune, luck",
@@ -245,6 +271,7 @@
       "url": "http://www.theoi.com/image/N16.1Nemesis.jpg"
     },
     {
+      "id": 28,
       "name": "Atlas",
       "romanname": "Atlas",
       "power": "Bearer of the heavens, astronomy",
@@ -254,6 +281,7 @@
       "url": "http://www.theoi.com/image/T20.1Titanes.jpg"
     },
     {
+      "id": 29,
       "name": "Cronus",
       "romanname": "Saturnus, Saturn",
       "power": "Time, king of the Titans",
@@ -263,6 +291,7 @@
       "url": "http://www.theoi.com/image/T6.1Kronos.jpg"
     },
     {
+      "id": 30,
       "name": "Mnemosyne",
       "romanname": "Moneta",
       "power": "Memory",
@@ -272,6 +301,7 @@
       "url": "http://www.theoi.com/image/img_mnemosyne.jpg"
     },
     {
+      "id": 31,
       "name": "Oceanus",
       "romanname": "Oceanus",
       "power": "River Oceanus, fresh water",
@@ -281,6 +311,7 @@
       "url": "http://www.theoi.com/image/O1.1Okeanos.jpg"
     },
     {
+      "id": 32,
       "name": "Prometheus",
       "romanname": "Prometheus",
       "power": "Forethought, crafty counsel",
@@ -290,6 +321,7 @@
       "url": "http://www.theoi.com/image/T20.1Titanes.jpg"
     },
     {
+      "id": 33,
       "name": "Rhea",
       "romanname": "Ops, Opis",
       "power": "Mother of the gods, mountains",
@@ -299,6 +331,7 @@
       "url": "http://www.theoi.com/image/T7.1Rhea.jpg"
     },
     {
+      "id": 34,
       "name": "Tethys",
       "romanname": "Tethys",
       "power": "Fresh water, nursing",
@@ -308,6 +341,7 @@
       "url": "http://www.theoi.com/image/Z35.4Okeanos.jpg"
     },
     {
+      "id": 35,
       "name": "Asteria",
       "romanname": "Asteria",
       "power": "Shooting stars, nighttime divination",
@@ -317,6 +351,7 @@
       "url": "http://www.theoi.com/image/T15.1Asteria.jpg"
     },
     {
+      "id": 36,
       "name": "Eos",
       "romanname": "Aurora",
       "power": "The dawn",
@@ -326,6 +361,7 @@
       "url": "http://www.theoi.com/image/T19.1Eos.jpg"
     },
     {
+      "id": 37,
       "name": "Hecate",
       "romanname": "Trivia",
       "power": "Witchcraft, magic, ghosts",
@@ -335,6 +371,7 @@
       "url": "http://www.theoi.com/image/img_hekate.jpg"
     },
     {
+      "id": 38,
       "name": "Helius",
       "romanname": "Sol",
       "power": "The sun, sight",
@@ -344,6 +381,7 @@
       "url": "http://www.theoi.com/image/T17.1Helios.jpg"
     },
     {
+      "id": 39,
       "name": "Selene",
       "romanname": "Luna",
       "power": "The moon",
@@ -353,6 +391,7 @@
       "url": "http://www.theoi.com/image/T18.1Selene.jpg"
     },
     {
+      "id": 40,
       "name": "Ananke",
       "romanname": "Necessitas",
       "power": "Necessity, compulsion",
@@ -362,6 +401,7 @@
       "url": "http://www.theoi.com/image/N2.1Ananke.jpg"
     },
     {
+      "id": 41,
       "name": "Chronos Aeon",
       "romanname": "Chronos Aeon",
       "power": "Time, eternity",
@@ -371,6 +411,7 @@
       "url": "http://www.theoi.com/image/Z15.2BAion.jpg"
     },
     {
+      "id": 42,
       "name": "Gaea",
       "romanname": "Terra, Tellus",
       "power": "The earth",
@@ -380,6 +421,7 @@
       "url": "http://www.theoi.com/image/T1.1BGaia.jpg"
     },
     {
+      "id": 43,
       "name": "Hemera",
       "romanname": "Dies",
       "power": "The day",
@@ -389,6 +431,7 @@
       "url": "http://www.theoi.com/image/T17.3Helios.jpg"
     },
     {
+      "id": 44,
       "name": "Nyx",
       "romanname": "Nox",
       "power": "The night",
@@ -398,6 +441,7 @@
       "url": "http://www.theoi.com/image/T17.3Helios.jpg"
     },
     {
+      "id": 45,
       "name": "Ourea",
       "romanname": "Montes",
       "power": "The mountains",
@@ -407,6 +451,7 @@
       "url": "http://www.greekmythology.com/images/mythology/ourea_189.jpg"
     },
     {
+      "id": 46,
       "name": "Pontus",
       "romanname": "Pontus",
       "power": "The sea",
@@ -416,6 +461,7 @@
       "url": "http://www.theoi.com/image/Z35.7Okeanos.jpg"
     },
     {
+      "id": 47,
       "name": "Thalassa",
       "romanname": "Mare",
       "power": "The sea",
@@ -425,6 +471,7 @@
       "url": "http://www.theoi.com/image/img_thalassa.jpg"
     },
     {
+      "id": 48,
       "name": "Uranus",
       "romanname": "Caelum",
       "power": "The sky, the starry heavens",
@@ -434,6 +481,7 @@
       "url": "http://www.theoi.com/image/Z15.2BAion.jpg"
     },
     {
+      "id": 49,
       "name": "Cerberus",
       "romanname": "Cerberus",
       "power": "Death, darkness",
@@ -443,6 +491,7 @@
       "url": "http://www.theoi.com/image/M12.1Kerberos.jpg"
     },
     {
+      "id": 50,
       "name": "Charon",
       "romanname": "Charon",
       "power": "Ferryman of the Dead",
@@ -452,6 +501,7 @@
       "url": "http://www.theoi.com/image/N11.1Kharon.jpg"
     },
     {
+      "id": 51,
       "name": "Erinyes",
       "romanname": "Furiae, Dirae",
       "power": "Vengeance, retribution",
@@ -461,6 +511,7 @@
       "url": "http://www.theoi.com/image/T40.1Erinyes.jpg"
     },
     {
+      "id": 52,
       "name": "Hades",
       "romanname": "Pluto, Dis, Orcus",
       "power": "The dead, king of the underworld",
@@ -470,6 +521,7 @@
       "url": "http://www.theoi.com/image/K14.1Haides.jpg"
     },
     {
+      "id": 53,
       "name": "Hypnos",
       "romanname": "Somnus, Sopor",
       "power": "Sleep",
@@ -479,6 +531,7 @@
       "url": "http://www.theoi.com/image/img_hypnos.jpg"
     },
     {
+      "id": 54,
       "name": "Persephone",
       "romanname": "Proserpina",
       "power": "Spring, queen of the underworld",
@@ -488,6 +541,7 @@
       "url": "http://www.theoi.com/image/K14.1Persephone.jpg"
     },
     {
+      "id": 55,
       "name": "Thanatos",
       "romanname": "Mors, Letum",
       "power": "Death",
@@ -497,6 +551,7 @@
       "url": "http://www.theoi.com/image/N12.1Thanatos.jpg"
     },
     {
+      "id": 56,
       "name": "Amphitrite",
       "romanname": "Salacia",
       "power": "The sea, fish, shellfish",
@@ -506,6 +561,7 @@
       "url": "http://www.theoi.com/image/Z2.3Poseidon.jpg"
     },
     {
+      "id": 57,
       "name": "Galatea",
       "romanname": "Galatea",
       "power": "Calm seas",
@@ -515,6 +571,7 @@
       "url": "http://www.theoi.com/image/Z42.1Polyphemos.jpg"
     },
     {
+      "id": 58,
       "name": "Ichthyocentaurs",
       "romanname": "Aphros, Bythos",
       "power": "Sea-foam, sea-depths",
@@ -524,6 +581,7 @@
       "url": "http://www.theoi.com/image/Z10.1Aphrodite.jpg"
     },
     {
+      "id": 59,
       "name": "Leucothea",
       "romanname": "Mater, Matuta",
       "power": "Protector of sailors",
@@ -533,6 +591,7 @@
       "url": "http://www.theoi.com/image/Z33.8Leukothea.jpg"
     },
     {
+      "id": 60,
       "name": "Nereids",
       "romanname": "Nereids",
       "power": "The sea, fish",
@@ -542,6 +601,7 @@
       "url": "http://www.theoi.com/image/Z33.9Nereides.jpg"
     },
     {
+      "id": 61,
       "name": "Nereus",
       "romanname": "Nereus",
       "power": "Fish",
@@ -551,6 +611,7 @@
       "url": "http://www.theoi.com/image/P11.1Nereus.jpg"
     },
     {
+      "id": 62,
       "name": "Palaemon",
       "romanname": "Portunus",
       "power": "Protector of sailors",
@@ -560,6 +621,7 @@
       "url": "http://www.theoi.com/image/img_palaimon.jpg"
     },
     {
+      "id": 63,
       "name": "Phorcys",
       "romanname": "Phorcys",
       "power": "Sea dangers",
@@ -569,6 +631,7 @@
       "url": "http://www.theoi.com/image/Z34.4CPhorkys.jpg"
     },
     {
+      "id": 64,
       "name": "Scylla",
       "romanname": "Scylla",
       "power": "Tear, Rend",
@@ -578,6 +641,7 @@
       "url": "http://www.theoi.com/image/P27.1Skylla.jpg"
     },
     {
+      "id": 65,
       "name": "Sirens",
       "romanname": "Sirens",
       "power": "Bodies of birds, heads of women",
@@ -587,6 +651,7 @@
       "url": "http://www.theoi.com/image/O21.3Seirenes.jpg"
     },
     {
+      "id": 66,
       "name": "Thetis",
       "romanname": "Thetis",
       "power": "The sea, leader of the Nereides",
@@ -596,6 +661,7 @@
       "url": "http://www.theoi.com/image/Z35.4Okeanos.jpg"
     },
     {
+      "id": 67,
       "name": "Triton",
       "romanname": "Triton",
       "power": "Waves, calm seas, herald of Poseidon",
@@ -605,6 +671,7 @@
       "url": "http://www.theoi.com/image/K16.1Triton.jpg"
     },
     {
+      "id": 68,
       "name": "Anemoi",
       "romanname": "Venti",
       "power": "The winds",
@@ -614,6 +681,7 @@
       "url": "http://www.theoi.com/image/Z50.7AEiar.jpg"
     },
     {
+      "id": 69,
       "name": "Aurae",
       "romanname": "Aurae",
       "power": "Breezes",
@@ -623,6 +691,7 @@
       "url": "http://www.theoi.com/image/T37.1Aura.jpg"
     },
     {
+      "id": 70,
       "name": "Boreas",
       "romanname": "Aquilo",
       "power": "The north wind, winter",
@@ -632,6 +701,7 @@
       "url": "http://www.theoi.com/image/T28.3BBoreas.jpg"
     },
     {
+      "id": 71,
       "name": "Harpies",
       "romanname": "Harpies",
       "power": "Storm winds, whirlwinds",
@@ -641,6 +711,7 @@
       "url": "http://www.theoi.com/image/P20.1Harpyiai.jpg"
     },
     {
+      "id": 72,
       "name": "Hesperides",
       "romanname": "Hesperides",
       "power": "Evening, sunsets",
@@ -650,6 +721,7 @@
       "url": "http://www.theoi.com/image/N14.1Hesperides.jpg"
     },
     {
+      "id": 73,
       "name": "Zephyrus",
       "romanname": "Zephyrus, Favonius",
       "power": "The west wind, spring",
@@ -659,6 +731,7 @@
       "url": "http://www.theoi.com/image/T29.1Zephyros.jpg"
     },
     {
+      "id": 74,
       "name": "Ariadne",
       "romanname": "Libera",
       "power": "Crown",
@@ -668,6 +741,7 @@
       "url": "http://www.theoi.com/image/K12.10Dionysos.jpg"
     },
     {
+      "id": 75,
       "name": "Chiron",
       "romanname": "Chiron",
       "power": "Teaching, surgeons",
@@ -677,6 +751,7 @@
       "url": "http://www.theoi.com/image/F15.1Kheiron.jpg"
     },
     {
+      "id": 76,
       "name": "Curetes & Dactyls",
       "romanname": "Curetes & Dactyls",
       "power": "The war dance, metalworking",
@@ -686,6 +761,7 @@
       "url": "http://images.betterworldbooks.com/613/Dactyl-Mythology-9786138367185.jpg"
     },
     {
+      "id": 77,
       "name": "Naiads",
       "romanname": "Naiads",
       "power": "Fresh water, springs, fountains",
@@ -695,6 +771,7 @@
       "url": "http://www.theoi.com/image/Z37.4Naias.jpg"
     },
     {
+      "id": 78,
       "name": "Nymphs",
       "romanname": "Nymphs",
       "power": "Nature",
@@ -704,6 +781,7 @@
       "url": "http://www.theoi.com/image/T8.3Themis.jpg"
     },
     {
+      "id": 79,
       "name": "Pan",
       "romanname": "Faunus",
       "power": "Shepherds, hunters, mountain forests and meadows",
@@ -713,6 +791,7 @@
       "url": "http://www.theoi.com/image/Z22.4Pan.jpg"
     },
     {
+      "id": 80,
       "name": "Potamoi",
       "romanname": "Flumina, Amnes",
       "power": "The rivers",
@@ -722,6 +801,7 @@
       "url": "http://www.theoi.com/image/O20.5Akheloos.jpg"
     },
     {
+      "id": 81,
       "name": "Priapus",
       "romanname": "Mutunus",
       "power": "Vegetable gardens",
@@ -731,6 +811,7 @@
       "url": "http://www.theoi.com/image/F39.1Priapos.jpg"
     },
     {
+      "id": 82,
       "name": "Satyrs",
       "romanname": "Fauns",
       "power": "Fertility",
@@ -740,6 +821,7 @@
       "url": "http://www.theoi.com/image/T60.8Satyros.jpg"
     },
     {
+      "id": 83,
       "name": "Silenus",
       "romanname": "Silenus",
       "power": "Drunkenness, wine-making",
@@ -749,6 +831,7 @@
       "url": "http://www.theoi.com/image/T50.2Seilenos.jpg"
     },
     {
+      "id": 84,
       "name": "Plutus",
       "romanname": "Plutus",
       "power": "Wealth, agricultural bounty",
@@ -758,6 +841,7 @@
       "url": "http://www.theoi.com/image/K26.1Ploutos.jpg"
     },
     {
+      "id": 85,
       "name": "Triptolemus",
       "romanname": "Triptolemus",
       "power": "Sowing, milling",
@@ -767,6 +851,7 @@
       "url": "http://www.theoi.com/image/img_triptolemos.jpg"
     },
     {
+      "id": 86,
       "name": "Dike",
       "romanname": "Justicia",
       "power": "Justice",
@@ -776,6 +861,7 @@
       "url": "http://www.theoi.com/image/N20.1Adikia.jpg"
     },
     {
+      "id": 87,
       "name": "Eris",
       "romanname": "Discordia",
       "power": "Strife, discord",
@@ -785,6 +871,7 @@
       "url": "http://www.theoi.com/image/N15.1Eris.jpg"
     },
     {
+      "id": 88,
       "name": "Geras",
       "romanname": "Senectus",
       "power": "Old age",
@@ -794,6 +881,7 @@
       "url": "http://www.theoi.com/image/N18.1BGeras.jpg"
     },
     {
+      "id": 89,
       "name": "Lyssa",
       "romanname": "Ira, Furor",
       "power": "Mad rage, fury, crazed frenzy",
@@ -803,6 +891,7 @@
       "url": "http://www.theoi.com/image/N17.1Lyssa.jpg"
     },
     {
+      "id": 90,
       "name": "Nemesis",
       "romanname": "Nemesis, Rivalitas",
       "power": "Retribution, indignation",
@@ -812,6 +901,7 @@
       "url": "http://www.theoi.com/image/N16.1Nemesis.jpg"
     },
     {
+      "id": 91,
       "name": "Peitho",
       "romanname": "Suada, Suadela",
       "power": "Persuasion, seduction",
@@ -821,6 +911,7 @@
       "url": "http://www.theoi.com/image/K10.14Aphrodite.jpg"
     },
     {
+      "id": 92,
       "name": "Deimos & Phobos",
       "romanname": "Metus, Pavor, Terror",
       "power": "Fear, panic, terror",
@@ -830,6 +921,7 @@
       "url": "http://www.theoi.com/image/Z30.1Phobos.jpg"
     },
     {
+      "id": 93,
       "name": "Poena",
       "romanname": "Poena, Poenae, Ultio",
       "power": "Vengeance, retribution",
@@ -839,6 +931,7 @@
       "url": "http://www.theoi.com/image/N10.3Poine.jpg"
     },
     {
+      "id": 94,
       "name": "Pothos",
       "romanname": "Pothos",
       "power": "Sexual longing, yearning",
@@ -848,6 +941,7 @@
       "url": "http://www.theoi.com/image/K34.1Pothos.jpg"
     },
     {
+      "id": 95,
       "name": "Soteria",
       "romanname": "Salus",
       "power": "Safety and Deliverance",
@@ -857,6 +951,7 @@
       "url": "http://www.theoi.com/image/Z28.1Soteria.jpg"
     },
     {
+      "id": 96,
       "name": "Dioscuri",
       "romanname": "Castor, Pollux",
       "power": "Horsemanship, St. Elmo's fire",
@@ -866,6 +961,7 @@
       "url": "http://www.theoi.com/image/H28.1Dioskouroi.jpg"
     },
     {
+      "id": 97,
       "name": "Ganymede",
       "romanname": "Ganymede, Catamitus",
       "power": "Cupbearer of the gods",
@@ -875,6 +971,7 @@
       "url": "http://www.theoi.com/image/Z32.1Ganymedes.jpg"
     },
     {
+      "id": 98,
       "name": "Psyche",
       "romanname": "Psyche",
       "power": "The soul",
@@ -884,6 +981,7 @@
       "url": "http://www.theoi.com/image/Z31.1Eros.jpg"
     },
     {
+      "id": 99,
       "name": "Thaumas",
       "romanname": "Thaumas",
       "power": "Sea",
@@ -898,7 +996,7 @@
       "power": "Lightening",
       "symbol": "Moth",
       "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24562711-1410-46bf-b0a9-8b6656ed40ac/dd59iai-9551a732-526e-4af7-b793-bf6dcf4cc142.png/v1/fill/w_846,h_944,strp/mothra_2019_render_4_by_sp_goji_fan_dd59iai-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvMjQ1NjI3MTEtMTQxMC00NmJmLWIwYTktOGI2NjU2ZWQ0MGFjXC9kZDU5aWFpLTk1NTFhNzMyLTUyNmUtNGFmNy1iNzkzLWJmNmRjZjRjYzE0Mi5wbmciLCJ3aWR0aCI6Ijw9ODYwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2uKtYyHMS17lOjuzBdr8CNSxdv941-P54REn-E3-jeE",
-      "id": 2
+      "id": 100
     },
     {
       "name": "Godzilla",
@@ -906,7 +1004,7 @@
       "power": "Fire-Breathing",
       "symbol": "Dragon",
       "url": "http://image.tmdb.org/t/p/original/zrtmdBXAI5bNQ2azM1ck5bGac8B.jpg",
-      "id": 3
+      "id": 101
     },
     {
       "name": "Him",
@@ -914,11 +1012,12 @@
       "power": "Interdimensional Phasing ",
       "symbol": "Crab",
       "url": "https://vignette4.wikia.nocookie.net/fictional-battle-omniverse/images/a/a7/HIM_Powerpuff_Girls.png/revision/latest?cb=20160907221202",
-      "id": 4
+      "id": 102
     }
   ],
   "heroes": [
     {
+      "id": 1,
       "name": "Atlanta",
       "herotype": "Demigod",
       "father": "Iasus",
@@ -928,6 +1027,7 @@
       "url": "http://www.theoi.com/image/img_atalanta.jpg"
     },
     {
+      "id": 2,
       "name": "Bellerophon",
       "herotype": "Demigod",
       "father": "Poseidon",
@@ -937,6 +1037,7 @@
       "url": "http://www.theoi.com/image/Z44.1Khimaira.jpg"
     },
     {
+      "id": 3,
       "name": "Callisto",
       "herotype": "Human",
       "father": "Lycaon",
@@ -946,6 +1047,7 @@
       "url": "http://www.theoi.com/image/O15.1Kentaurides.jpg"
     },
     {
+      "id": 4,
       "name": "Danae",
       "herotype": "Human",
       "father": "Acrisius",
@@ -955,6 +1057,7 @@
       "url": "http://www.theoi.com/image/K1.14Zeus.jpg"
     },
     {
+      "id": 5,
       "name": "Endymion",
       "herotype": "Human",
       "father": "Aethlius",
@@ -964,6 +1067,7 @@
       "url": "http://www.theoi.com/image/Z18.2Selene.jpg"
     },
     {
+      "id": 6,
       "name": "Heracles",
       "herotype": "Demigod",
       "father": "Zeus",
@@ -973,6 +1077,7 @@
       "url": "http://www.greekmythology.com/images/mythology/heracles_134.jpg"
     },
     {
+      "id": 7,
       "name": "Hyacinthus",
       "herotype": "Human",
       "father": "Amyclas",
@@ -982,6 +1087,7 @@
       "url": "http://www.theoi.com/image/T29.1Zephyros.jpg"
     },
     {
+      "id": 8,
       "name": "Io",
       "herotype": "Nymph",
       "father": "Inachus",
@@ -991,6 +1097,7 @@
       "url": "http://www.theoi.com/image/F41.1Io.jpg"
     },
     {
+      "id": 9,
       "name": "Leda",
       "herotype": "Human",
       "father": "Thestius",
@@ -1000,6 +1107,7 @@
       "url": "http://www.theoi.com/image/Z1.4Zeus.jpg"
     },
     {
+      "id": 10,
       "name": "Pandora",
       "herotype": "Human",
       "father": "Crafted from Clay by gods",
@@ -1009,6 +1117,7 @@
       "url": "http://www.theoi.com/image/T22.1Pandora.jpg"
     },
     {
+      "id": 11,
       "name": "Pelops",
       "herotype": "Human",
       "father": "Tantalus",
@@ -1018,6 +1127,7 @@
       "url": "http://www.greekmythology.com/images/mythology/pelops_366.jpg"
     },
     {
+      "id": 12,
       "name": "Penthesilea",
       "herotype": "Demigod",
       "father": "Ares",
@@ -1027,6 +1137,7 @@
       "url": "http://www.theoi.com/image/img_penthesileia.jpg"
     },
     {
+      "id": 13,
       "name": "Perseus",
       "herotype": "Demigod",
       "father": "Zeus",
@@ -1036,6 +1147,7 @@
       "url": "http://www.theoi.com/image/P23.2Medousa.jpg"
     },
     {
+      "id": 14,
       "name": "Pygmalion",
       "herotype": "Demigod",
       "father": "Poseidon",
@@ -1045,6 +1157,7 @@
       "url": "http://www.greekmyths-greekmythology.com/wp-content/uploads/2010/07/Pygmalion-And-Galatea-300x227.jpg"
     },
     {
+      "id": 15,
       "name": "Pyrrha",
       "herotype": "Human",
       "father": "Epimetheus",
@@ -1054,6 +1167,7 @@
       "url": "http://www.greekmythology.com/images/mythology/pyrrha_384.jpg"
     },
     {
+      "id": 16,
       "name": "Cycnus",
       "herotype": "Demigod",
       "father": "Poseidon",
@@ -1063,6 +1177,7 @@
       "url": "http://www.mlahanas.de/Greeks/Mythology/Images/HeraclesKyknos.jpg"
     },
     {
+      "id": 17,
       "name": "Tyro",
       "herotype": "Human",
       "father": "Salmoneus",
@@ -1072,6 +1187,7 @@
       "url": "http://img13.deviantart.net/388b/i/2004/306/f/f/tyro_and_poseidon__work_in_pro_by_kallithrix.jpg"
     },
     {
+      "id": 18,
       "name": "Achilles",
       "herotype": "Demigod",
       "father": "Peleus",
@@ -1081,6 +1197,7 @@
       "url": "http://www.greekmythology.com/images/mythology/achilles_218.jpg"
     },
     {
+      "id": 19,
       "name": "Actaeon",
       "herotype": "Demigod",
       "father": "Aristaeus",
@@ -1090,6 +1207,7 @@
       "url": "http://www.greekmythology.com/images/mythology/actaeon_220.jpg"
     },
     {
+      "id": 20,
       "name": "Aeneas",
       "herotype": "Demigod",
       "father": "Anchises",
@@ -1099,6 +1217,7 @@
       "url": "http://www.greekmythology.com/images/mythology/aeneas_536.jpg"
     },
     {
+      "id": 21,
       "name": "Castor",
       "herotype": "Demigod",
       "father": "Tyndareus",
@@ -1108,6 +1227,7 @@
       "url": "http://www.greekmythology.com/images/mythology/dioscuri_281.jpg"
     },
     {
+      "id": 22,
       "name": "Pollux",
       "herotype": "Human",
       "father": "Tyndareus",
@@ -1117,6 +1237,7 @@
       "url": "http://www.theoi.com/image/Z42.3Polyphemos.jpg"
     },
     {
+      "id": 23,
       "name": "Jason",
       "herotype": "Human",
       "father": "Aeson",
@@ -1126,6 +1247,7 @@
       "url": "http://www.greekmythology.com/images/mythology/jason_323.jpg"
     },
     {
+      "id": 24,
       "name": "Meleager",
       "herotype": "Human",
       "father": "Oeneus",
@@ -1135,6 +1257,7 @@
       "url": "http://www.greekmythology.com/images/mythology/meleager_135.jpg"
     },
     {
+      "id": 25,
       "name": "Odysseus",
       "herotype": "Human",
       "father": "Laertes",
@@ -1144,6 +1267,7 @@
       "url": "http://www.greekmythology.com/images/mythology/odysseus_353.jpg"
     },
     {
+      "id": 26,
       "name": "Peleus",
       "herotype": "Demigod",
       "father": "Aeacus",
@@ -1153,6 +1277,7 @@
       "url": "http://www.greekmythology.com/images/mythology/peleus_364.jpg"
     },
     {
+      "id": 27,
       "name": "Theseus",
       "herotype": "Demigod",
       "father": "Poseidon",
