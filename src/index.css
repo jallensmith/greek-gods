@@ -48,3 +48,18 @@ nav a.active {
   padding-left: 50px;
 }
 
+#card-god{
+  text-align: center;
+}
+
+#card-hero{
+  text-align: center;
+}
+
+#card-group-versus{
+  padding-left: 400px;
+}
+
+#versus{
+  padding-top: 200px;
+}

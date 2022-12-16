@@ -14,7 +14,7 @@ function VersusPage({ gods, heroes }) {
 
     return (
         <div>
-            <Card.Group>
+            <Card.Group id="card-group-versus">
 
                 <Card id="card-god">
                     <Card.Header>
@@ -31,6 +31,7 @@ function VersusPage({ gods, heroes }) {
                         />)}
                     </Card.Description>
                 </Card>
+                        <h3 id="versus">VS.</h3>
                 <Card id="card-hero">
                     <Card.Header>
                         <SearchHero
