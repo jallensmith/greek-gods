@@ -26,7 +26,7 @@ function NavBar(){
                 </NavLink>
                 <br></br>
                 <br></br>
-                <NavLink to="/collection/myths">
+                <NavLink to="/collection/myths/:id">
                     Read A Myth!
                 </NavLink>
             </nav>

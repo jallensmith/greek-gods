@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 import Search from "./Search"
 import SearchHero from "./SearchHero"
 import GodCardSlim from './GodCard_Slim';
@@ -14,36 +14,40 @@ function VersusPage({ gods, heroes }) {
 
     return (
         <div>
-                <Container>
-                    
+            <Card.Group>
+
+                <Card id="card-god">
+                    <Card.Header>
                         <Search
                             godSearch={godSearch}
-                            setGodSearch={setGodSearch} 
-                            
-                            />
-
-                        {filteredGods.slice(0, 1).map((god) =>
-                            <GodCardSlim
-                                key={god.id}
-                                god={god}
-                            />)}
-                    
-                </Container>
-                <Container>
-                    
+                            setGodSearch={setGodSearch}
+                        />
+                    </Card.Header>
+                    <Card.Description>
+                    {filteredGods.slice(0, 1).map((god) =>
+                        <GodCardSlim
+                            key={god.id}
+                            god={god}
+                        />)}
+                    </Card.Description>
+                </Card>
+                <Card id="card-hero">
+                    <Card.Header>
                         <SearchHero
                             HeroSearch={heroSearch}
-                            setHeroSearch={setHeroSearch} 
+                            setHeroSearch={setHeroSearch}
                             heroes={heroes}
-                            />
-
+                        />
+                    </Card.Header>
+                    <Card.Description>
                         {filteredHeroes.slice(0, 1).map((hero) =>
                             <HeroCardSlim
                                 key={hero.id}
                                 hero={hero}
                             />)}
-                    
-                </Container>
+                    </Card.Description>
+                </Card>
+            </Card.Group>
         </div>
     )
 }

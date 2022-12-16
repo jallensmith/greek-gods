@@ -74,7 +74,7 @@ function App() {
         <Route path="/collection/versus">
           <VersusPage gods={gods} heroes={heroes} />
         </Route>
-        <Route path="/collection/myths">
+        <Route path="/collection/myths/:id">
           <MythsPage myths={myths} />
         </Route>
       </Switch>

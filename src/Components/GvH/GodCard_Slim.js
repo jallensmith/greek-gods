@@ -7,7 +7,7 @@ function GodCardSlim({ god }) {
 
     return (
         <Container>
-            <div id="Card" className="d-inline-flex p-1 bd-highlight container-fluid">
+            <div id="God-Card" className="d-inline-flex p-1 bd-highlight container-fluid">
                 <div class="card bg-light mb-3">
                     <h2>Greek:{name}</h2>
                     <h2>Roman:{romanname}</h2>

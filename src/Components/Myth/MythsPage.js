@@ -23,7 +23,7 @@ function MythsPage({ myths }) {
                     randomize={randomize}
                 />
             ))}
-            <Button onClick={handleClick}>New Myth</Button>
+            <Button onClick={handleClick} id="myth-button">New Myth</Button>
         </div>
     )
 }

@@ -8,7 +8,7 @@ function Search({ heroSearch, setHeroSearch, heroes }) {
         setHeroSearch(event.target.value)
     }
 
-    const heroOptions = heroes.map((hero) => <li>{hero.name}</li>)
+    // const heroOptions = heroes.map((hero) => <li>{hero.name}</li>)
     
     // const Options = [
     //     {
@@ -22,22 +22,22 @@ function Search({ heroSearch, setHeroSearch, heroes }) {
         <div>
             <Form>
                 <Form.Input
-                    fluid label="Hero"
-                    placeholder="Hero"
+                    fluid label="Search for the Hero"
+                    placeholder="Type Here"
                     name="Hero"
                     value={heroSearch}
                     onChange={handleChange}
                 />
             </Form>
 
-            <Dropdown
+            {/* <Dropdown
                 placeholder='Select Friend'
                 fluid
                 selection
                 multiple={true}
                 // value={heroOptions}
                 options={heroOptions}
-            />
+            /> */}
 
         </div>
     )

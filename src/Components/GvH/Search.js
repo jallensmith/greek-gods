@@ -10,21 +10,13 @@ function Search({ godSearch, setGodSearch }) {
         <div>
             <Form>
                 <Form.Input
-                    fluid label="God"
-                    placeholder="God"
+                    fluid label="Search for the God"
+                    placeholder="Type Here"
                     name="God"
                     value={godSearch}
                     onChange={handleChange}
                 />
-                {/* <Button>🔍</Button> */}
             </Form>
-            {/* <Dropdown
-                placeholder='Select a God'
-                fluid
-                selection
-                // options={}
-                // onChange={handleChange}
-            /> */}
         </div>
     )
 }
