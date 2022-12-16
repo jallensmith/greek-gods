@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Switch, Route } from "react-router-dom";
-import { Button } from 'semantic-ui-react'
+// import { Button } from 'semantic-ui-react'
 import GodCard from './Components/GodCard.js';
 import Form from './Components/Form';
 import Collection from './Components/Collection';
@@ -11,14 +11,14 @@ import DeleteGod from './Components/Delete A God.js';
 import UpdateGods from './Components/UpdateGods.js';
 import GodPage from './Components/GodPage.js';
 
-function App() {
+function App1() {
   // Global Variables
   const godAPI = 'http://localhost:3004/gods';
-  const heroAPI = 'http://localhost:3004/heroes';
+//   const heroAPI = 'http://localhost:3004/heroes';
 
   // State Variables
   const [gods, setGods] = useState([])
-  const [heros, setHeroes] = useState([])
+//   const [heros, setHeroes] = useState([])
   const [userText, setUserText] = useState("")
   const [user, setUser] = useState('')
 
@@ -29,11 +29,11 @@ function App() {
       .then(setGods)
   }, [])
 
-  useEffect(() => {
-    fetch(heroAPI)
-      .then(response => response.json())
-      .then(setHeroes)
-  }, [])
+//   useEffect(() => {
+//     fetch(heroAPI)
+//       .then(response => response.json())
+//       .then(setHeroes)
+//   }, [])
 
   // CRUD
   const filteredGods = gods.filter((god) => god.name.includes(userText))
@@ -111,4 +111,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;

@@ -1,26 +1,28 @@
-# Greek God and Heroes Index
+# Surveying Greek Mythology
 
-## Welcome to Mount Olympus
+## Welcome to Mount Olympus!
 Take a step onto the perilous mountains of Mount Olympus and witness the Gods and Heroes of Greek Mythology!
 
 ## Functionalities:
 On this app, you are able to:
 
 ### Primary:
-1. Search through a Database of Greek Gods (See `God Collection` Page) and Heroes (See `See the Heroes` Page)
-2. Add New Gods to the Existing Database!
-
-### In Development:
-1. User Being Able to Login and this persist on all pages
-2. Update Gods with New Information 
-3. Delete Gods from API
+1. Search through a Database of Greek Gods (See `Fear The Gods` Page) and Heroes (See `See the Heroes` Page)
+2. Add New Gods and New Heroes to the Existing Database!
+3. Show Your Fear or Love for the Heroes and Gods through Liking the Heroes and Disliking the Heroes!(Does not Persist on the Backend)
+4. Permanently Banish Gods from Mount Olympus through a Delete Button or Remove a Hero from the Team! (Persists on the Backend)
+5. Read Myths about the Gods and Click through all the Myths!
+6. Set the Gods vs the Heroes and see how they match up! 
 
 ## Notes to Dev:
-Initial Wire-Frame for this Project(you may notice the theme changed):
+Initial Wire-Frame for this Project:
+
 <img src="/home/theallensmiths/Projects/greek-gods/public/Initial Skeleton.png" alt="wire frame of project"> 
 
-
 # To Run This Project:
+
+### `npm install`
+Installs the necessary dependencies within the App
 
 ### `npm run server`
 
